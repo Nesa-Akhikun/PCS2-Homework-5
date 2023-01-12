@@ -1,0 +1,14 @@
+PMCH/Perfect Matchings and RNA Secondary Structures:
+
+
+import math
+
+RNA="""AAGGAAUGCCCAGUCACUAUGCAGUCUAUGUAAAUGCUGGCAAGUAUUGUUGAUACCCCG
+UACCGGCUACUG
+"""
+
+AU=RNA.count("A")
+GC=RNA.count("G")
+
+matchings =math.factorial(AU)*math.factorial(GC) 
+print(matchings)
