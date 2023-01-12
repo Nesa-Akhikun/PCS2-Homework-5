@@ -13,7 +13,7 @@ def function(rosID, string):
         if suffix == prefix and key != rosID:
             print (rosID + ' ' + key)
     return None
-inFile = open('C:\\Users\\pc\\Downloads\\rosalind_grph.txt', 'r')
+inFile = open('C:\\Users\\pc\\Downloads\\rosalind_grph (2).txt', 'r')
 count = -1
 seqDict = {}
 for line in inFile:
