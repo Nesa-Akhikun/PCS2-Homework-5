@@ -3,7 +3,7 @@ TREE/Completing a Tree:
 
 # the input:
 
-data = "C:\\Users\\pc\\Downloads\\rosalind_tree.txt"
+data = ("C:\\Users\\pc\\Downloads\\rosalind_tree.txt")
 
 # the solution:
 
